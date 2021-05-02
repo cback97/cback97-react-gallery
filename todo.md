@@ -10,19 +10,19 @@
 # Base-Mode
 
 ## App-Component
-[] - Im
+[] - I'm
 [] -
 [] -
 [] -
 
 ## GalleryList-Component
-[] - Create component called GalleryList
+[x] - Create component called GalleryList
 [] - 
 [] -
 [] -
 
 ## GalleryItem-component
-[] - Create component called GalleryItem
+[x] - Create component called GalleryItem
 [] -
 [] -
 [] -
