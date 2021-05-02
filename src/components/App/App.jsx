@@ -5,6 +5,8 @@ import GalleryList from '../GalleryList/GalleryList'
 import GalleryItem from '../GalleryItem/GalleryItem'
 
 function App() {
+
+  
     return (
       <div className="App">
         <header className="App-header">
@@ -17,3 +19,4 @@ function App() {
 }
 
 export default App;
+

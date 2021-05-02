@@ -16,7 +16,7 @@
 [x] - Import GalleryItem
 [] - Set up axios.get route
 [] - Set up axios.post route
-[] - Set up method for storing images
+[x] - Store images into images folder as png files
 [] -
 
 
@@ -31,4 +31,5 @@
 [x] - default export
 [] -
 [] -
+
 
