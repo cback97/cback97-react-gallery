@@ -10,20 +10,25 @@
 # Base-Mode
 
 ## App-Component
-[] - I'm
+[] - Import useState && useEffect
+[x] - Import axios
+[x] - Import GalleryList
+[x] - Import GalleryItem
+[] - Set up axios.get route
+[] - Set up axios.post route
+[] - Set up method for storing images
 [] -
-[] -
-[] -
+
 
 ## GalleryList-Component
 [x] - Create component called GalleryList
-[] - 
-[] -
+[] - Set up submit handle
+[x] - default export
 [] -
 
 ## GalleryItem-component
 [x] - Create component called GalleryItem
-[] -
+[x] - default export
 [] -
 [] -
 

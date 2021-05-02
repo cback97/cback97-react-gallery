@@ -1,5 +1,8 @@
 import React from 'react';
 import './App.css';
+import axios from 'axios';
+import GalleryList from '../GalleryList/GalleryList'
+import GalleryItem from '../GalleryItem/GalleryItem'
 
 function App() {
     return (
