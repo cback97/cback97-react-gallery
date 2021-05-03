@@ -1,6 +1,6 @@
 import GalleryItem from '../GalleryItem/GalleryItem'
 
-function GalleryList (props) {
+function GalleryList ({getImg},{galleryData}) {
     
     return (
         <div>
