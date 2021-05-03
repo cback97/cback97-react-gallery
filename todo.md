@@ -20,14 +20,17 @@
 ## GalleryList-Component
 [x] - Create component called GalleryList
 [x] - default export
-[] -
+[x] - import GalleryItem
+[] - Gallery item to loop through array of img in App
 
 ## GalleryItem-Component
 [x] - Create component called GalleryItem
 [x] - default export
-[] - import useState
-[] - import axios
+[x] - import useState
+[x] - import axios
 [] - set up function for adding likes
-[] - set up function for switching to description on click
+[x] - set up function for switching to description on click
+[] - set up PUT function
+[] - build return statement for component
 
 
