@@ -28,9 +28,9 @@
 [x] - default export
 [x] - import useState
 [x] - import axios
-[] - set up function for adding likes
+[x] - set up function for adding likes
 [x] - set up function for switching to description on click
-[] - set up PUT function
+[x] - set up PUT function
 [] - build return statement for component
 
 
