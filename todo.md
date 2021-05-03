@@ -14,6 +14,7 @@
 [x] - Import axios
 [x] - Import GalleryList
 [x] - Set up axios.get route
+[] - re-render on each click
 [] - Place GalleryList component in return statement w/ props
 
 
@@ -21,7 +22,7 @@
 [x] - Create component called GalleryList
 [x] - default export
 [x] - import GalleryItem
-[] - Gallery item to loop through array of img in App
+[x] - Gallery item to loop through array of img in App
 
 ## GalleryItem-Component
 [x] - Create component called GalleryItem
@@ -31,6 +32,6 @@
 [x] - set up function for adding likes
 [x] - set up function for switching to description on click
 [x] - set up PUT function
-[] - build return statement for component
+[x] - build return statement for component
 
 
