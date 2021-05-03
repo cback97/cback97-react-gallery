@@ -1,10 +1,10 @@
-## Set-Up
+# Set-Up
 [x] - run npm install
 [x] - run server
 [x] - run client
 [x] - place images in public/images folder
-[] - modify server/modules/data.js to include and id, title, description, and path for each of my images. (refer to full stack treats assignment)
-[] - each id should be a unique number
+[x] - modify server/modules/data.js to include and id, title, description, and path for each of my images. (refer to full stack treats assignment)
+[x] - each id should be a unique number
 
 
 # Base-Mode
@@ -25,7 +25,7 @@
 [x] - default export
 [] -
 
-## GalleryItem-component
+## GalleryItem-Component
 [x] - Create component called GalleryItem
 [x] - default export
 [] -

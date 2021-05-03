@@ -6,13 +6,16 @@ import GalleryItem from '../GalleryItem/GalleryItem'
 
 function App() {
 
-let [galleryData, SetGalleryData] = useState([]);
+// let [galleryData, SetGalleryData] = useState([]);
 
   const getImg = () => {
 
     axios.get('/gallery')
     .then(response => {
       console.log(response.data)
+    })
+    .catch(error =>  {
+      console.log('Could not retrieve response data, try again later!');
     })
 
   }
@@ -22,7 +25,9 @@ let [galleryData, SetGalleryData] = useState([]);
           <h1 className="App-title">Gallery of My Life</h1>
         </header>
         <p>Gallery goes here</p>
-        {/* <img src="images/goat_small.jpg"/> */}
+   
+        <img src="images/goat_small.jpg"/>
+
       </div>
     );
 }
