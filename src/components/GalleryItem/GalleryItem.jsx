@@ -1,11 +1,10 @@
-import useState from 'react'
+import {useState}from 'react'
 import axios from 'axios'
 import './GalleryItem.css';
-import { response } from 'express';
 import PropTypes from 'prop-types';
 
 // component to src images, create like add button per image, have a toggle for photo description
-function GalleryItem ({image},{getImg}) {
+function GalleryItem ({image, getImg}) {
     
     //set up state and function to swap to and from photo/description upon toggle
     const [imgtoggle, setImgToggle] = useState(true)
@@ -23,7 +22,7 @@ function likes(event) {
 let id = event.currentTarget.dataset.id;
 console.log('like button confirmation', id)
 
-axios.put(`/gallery/like/${id}`)
+axios.put(`/gallery/like/:id`)
 .then((response) => {
     console.log('testing', response)
     getImg();
@@ -36,7 +35,7 @@ axios.put(`/gallery/like/${id}`)
     return (
         
         <div>
-            // conditional rendering on toggle 
+            {/*conditional rendering on toggle */}
             {imgtoggle ? (
              <img onClick={setGalToggle} src={image.path} />
             ) : (

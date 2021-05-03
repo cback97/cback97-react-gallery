@@ -34,7 +34,7 @@ getImg();
         <p>Gallery goes here</p>
    
         {/* <img src="images/goat_small.jpg"/> */}
-        <GalleryList galleryData={galleryData} getImg={getImg}/>
+        {/* <GalleryList galleryData={galleryData} getImg={getImg}/> */}
       </div>
     );
 }
