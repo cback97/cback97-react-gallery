@@ -1,4 +1,5 @@
 import GalleryItem from '../GalleryItem/GalleryItem'
+import PropTypes from 'prop-types';
 
 function GalleryList ({getImg},{galleryData}) {
     

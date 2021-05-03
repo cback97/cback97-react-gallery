@@ -2,6 +2,7 @@ import useState from 'react'
 import axios from 'axios'
 import './GalleryItem.css';
 import { response } from 'express';
+import PropTypes from 'prop-types';
 
 // component to src images, create like add button per image, have a toggle for photo description
 function GalleryItem ({image},{getImg}) {

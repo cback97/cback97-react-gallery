@@ -15,7 +15,7 @@
 [x] - Import GalleryList
 [x] - Set up axios.get route
 [] - re-render on each click
-[] - Place GalleryList component in return statement w/ props
+[x] - Place GalleryList component in return statement w/ props
 
 
 ## GalleryList-Component
