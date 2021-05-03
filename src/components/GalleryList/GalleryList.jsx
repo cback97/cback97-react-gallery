@@ -6,9 +6,8 @@ function GalleryList ({getImg},{galleryData}) {
         <div>
             <h2>This is a Snippet of me!</h2>
             <section>
-                {props.images.map(image => 
-                
-                        )}
+               {galleryData.map( image =>
+                <GalleryItem key={image.id} image={image} getImg={getImg}/>)} 
             </section>
         </div>
     )
