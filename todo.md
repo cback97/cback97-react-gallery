@@ -13,11 +13,8 @@
 [x] - Import useState && useEffect
 [x] - Import axios
 [x] - Import GalleryList
-[x] - Import GalleryItem
 [x] - Set up axios.get route
-[] - Set up axios.post route
-[x] - Store images into images folder as png files
-[] -
+[] - Place GalleryList component in return statement w/ props
 
 
 ## GalleryList-Component
@@ -28,7 +25,9 @@
 ## GalleryItem-Component
 [x] - Create component called GalleryItem
 [x] - default export
-[] -
-[] -
+[] - import useState
+[] - import axios
+[] - set up function for adding likes
+[] - set up function for switching to description on click
 
 
