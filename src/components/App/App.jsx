@@ -8,7 +8,7 @@ import GalleryItem from '../GalleryItem/GalleryItem'
 
 function App() {
 
-let [galleryData, SetGalleryData] = useState([]);
+let [galleryData, setGalleryData] = useState([]);
 
 useEffect(() => {
 getImg();
@@ -19,7 +19,7 @@ getImg();
     axios.get('/gallery')
     .then(response => {
       console.log(response.data)
-      SetGalleryData(response.data)
+      setGalleryData(response.data)
     })
     .catch(error =>  {
       console.log('Could not retrieve response data, try again later!');
@@ -34,7 +34,7 @@ getImg();
         <p>Gallery goes here</p>
    
         {/* <img src="images/goat_small.jpg"/> */}
-        {/* <GalleryList galleryData={galleryData} getImg={getImg}/> */}
+        <GalleryList galleryData={galleryData} getImg={getImg}/>
       </div>
     );
 }
